@@ -4,5 +4,6 @@
     {
         bool WriteFileToDisk(string fullFilePath, string content);
         string ReadFromFile(string FullFilePath);
+        bool CreateDirectory(string path);
     }
 }

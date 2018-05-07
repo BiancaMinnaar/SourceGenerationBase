@@ -10,11 +10,9 @@ namespace MobileBonsai.Generation.Repository.Implementation
     public abstract class GeneratorStepsRepository<M>
         where M : TemplateDataModel, new()
     {
-        IFileService _FileService;
-        IProjectFactory _ProjectFactory;
-        IGenerationReposetory<M> _Repository;
+        protected IFileService _FileService;
 
-        public GeneratorStepsRepository(IFileService fileService, IProjectFactory projectFactory){
+        protected GeneratorStepsRepository(IFileService fileService, IProjectFactory projectFactory){
             _FileService = fileService;
             _ProjectFactory = projectFactory;
             _Repository = new GenerationReposetory<M>(fileService, projectFactory);
