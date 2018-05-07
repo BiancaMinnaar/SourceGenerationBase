@@ -1,7 +1,10 @@
-﻿namespace CorePCL.Generation.Repository
+﻿using CorePCL.Generation.Data;
+
+namespace CorePCL.Generation.Repository
 {
     public interface IProjectReaderRepository
     {
+        ProjectModel Model { get; }
         string GetProjectName();
         string GetProjectFileLocation();
         string GetTemplatePath(string templateName);

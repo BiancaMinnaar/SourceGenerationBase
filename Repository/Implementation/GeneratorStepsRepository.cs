@@ -11,6 +11,8 @@ namespace MobileBonsai.Generation.Repository.Implementation
         where M : TemplateDataModel, new()
     {
         protected IFileService _FileService;
+        IProjectFactory _ProjectFactory;
+        GenerationReposetory<M> _Repository;
 
         protected GeneratorStepsRepository(IFileService fileService, IProjectFactory projectFactory){
             _FileService = fileService;
