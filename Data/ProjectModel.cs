@@ -2,15 +2,12 @@
 
 namespace CorePCL.Generation.Data
 {
-    public class ProjectModelPathAttribute : Attribute
-    {
-
-    }
+    public class ProjectModelPathAttribute : Attribute {}
 
     public class ProjectModel : GenericTemplateModel
     {
-        public string ProjectFileLocation => "../" + ProjectName + "/" + ProjectName + "/" + ProjectName + "/";
-		//Root Folder
+        public string ProjectFileLocation => "../" + ProjectName + "/" + ProjectName +"/";
+        //Root Folder
         [ProjectModelPath]
         public string BaseFolderPath => "../" + ProjectName + "/" + ProjectName + "/Root/";
         [ProjectModelPath]

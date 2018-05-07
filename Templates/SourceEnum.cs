@@ -12,6 +12,8 @@
         ViewControllerInterface,
         ViewController,
         ViewModel,
-        Generator
+        Generator,
+        ShadowProjectFile,
+        ShadowProjectDeploymentFile
     }
 }

@@ -5,6 +5,7 @@
         Normal,
         Xaml,
         CodeBehind,
-        Regenerate
+        Regenerate,
+        PreConfig
     }
 }
