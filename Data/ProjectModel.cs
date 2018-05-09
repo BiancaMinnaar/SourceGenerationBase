@@ -28,6 +28,36 @@ namespace CorePCL.Generation.Data
         public string ViewModelPath => "../" + ProjectName + "/" + ProjectName + "/Trunk/ViewModel/";
         [ProjectModelPath]
         public string ViewPath => "../" + ProjectName + "/" + ProjectName + "/Trunk/View/";
+        //iOS
+        [ProjectModelPath]
+        public string IOSProjectPath => "../" + ProjectName + "/iOS/";
+        [ProjectModelPath]
+        public string IOSAssetsPath => "../" + ProjectName + "/iOS/Assets.xcassets/";
+        [ProjectModelPath]
+        public string IOSAssetsAppIconPath => "../" + ProjectName + "/iOS/Assets.xcassets/AppIcon.appiconset/";
+        [ProjectModelPath]
+        public string IOSResourcesPath => "../" + ProjectName + "/iOS/Resources/";
+        //Droid
+        [ProjectModelPath]
+        public string DroidProjectPath => "../" + ProjectName + "/Droid/";
+        [ProjectModelPath]
+        public string DroidAssetsPath => "../" + ProjectName + "/Droid/Assets/";
+        [ProjectModelPath]
+        public string DroidPropertiesPath => "../" + ProjectName + "/Droid/Properties/";
+        [ProjectModelPath]
+        public string DroidResourcesPath => "../" + ProjectName + "/Droid/Resources/";
+        [ProjectModelPath]
+        public string DroidResourcesDrawablePath => "../" + ProjectName + "/Droid/Resources/Drawable/";
+        [ProjectModelPath]
+        public string DroidResourcesDrawableHdpiPath => "../" + ProjectName + "/Droid/Resources/drawable-hdpi/";
+        [ProjectModelPath]
+        public string DroidResourcesDrawableXhdpiPath => "../" + ProjectName + "/Droid/Resources/drawable-xhdpi/";
+        [ProjectModelPath]
+        public string DroidResourcesDrawableXxhdpiPath => "../" + ProjectName + "/Droid/Resources/drawable-xxhdpi/";
+        [ProjectModelPath]
+        public string DroidResourcesLayoutPath => "../" + ProjectName + "/Droid/Resources/layout/";
+        [ProjectModelPath]
+        public string DroidResourcesValuesPath => "../" + ProjectName + "/Droid/Resources/values/";
 
         public ProjectModel(string projectName)
         {

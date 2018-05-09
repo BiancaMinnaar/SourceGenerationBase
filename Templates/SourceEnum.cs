@@ -14,6 +14,7 @@
         ViewModel,
         Generator,
         ShadowProjectFile,
-        ShadowProjectDeploymentFile
+        ShadowProjectDeploymentFile,
+        JsonFile
     }
 }
