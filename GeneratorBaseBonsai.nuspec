@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
@@ -12,6 +12,7 @@
     <releaseNotes>
             V1.0.3 - Added support for Directory addition to enable pre config of project structures.
             V1.0.4 - Added More Pre Config Ability
+            V1.0.5 - Add InsertDirecotryReferenceInProjectFile to IProjectReaderRepository
         </releaseNotes>
     <copyright></copyright>
     <language></language>

@@ -12,5 +12,6 @@ namespace CorePCL.Generation.Repository
         bool InsertFileReferenceInProjectFile(string classPath);
         bool InsertXamlFileReferenceInProjectFile(string classPath, string codeBehindFileName);
         bool InsertXamlEmbededResourceInProjectFile(string classPath);
+        bool InsertDirecotryReferenceInProjectFile(string classPath);
     }
 }
