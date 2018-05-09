@@ -6,6 +6,7 @@ namespace CorePCL.Generation.Data
 
     public class ProjectModel : GenericTemplateModel
     {
+        public string SolutionFileLocation => "../" + ProjectName + "/";
         public string ProjectFileLocation => "../" + ProjectName + "/" + ProjectName +"/";
         //Root Folder
         [ProjectModelPath]

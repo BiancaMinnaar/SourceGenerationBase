@@ -6,6 +6,7 @@
         Xaml,
         CodeBehind,
         Regenerate,
-        PreConfig
+        PreConfig,
+        AppXaml
     }
 }

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>1.0.5</version>
+    <version>1.0.8</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
@@ -12,7 +12,10 @@
     <releaseNotes>
             V1.0.3 - Added support for Directory addition to enable pre config of project structures.
             V1.0.4 - Added More Pre Config Ability
-            V1.0.5 - Add InsertDirecotryReferenceInProjectFile to IProjectReaderRepository
+            V1.0.5 - Added InsertDirecotryReferenceInProjectFile to IProjectReaderRepository
+            V1.0.6 - Added iOS and Adroid Paths to ProjectModel
+            V1.0.7 - Added iOS Bootstrap and SolutionFile;
+            V1.0.8 - Added InsertEmbededResourceInProjectFile to facilitate AppXaml
         </releaseNotes>
     <copyright></copyright>
     <language></language>

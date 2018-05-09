@@ -2,6 +2,7 @@
 {
     public enum SourceEnum
     {
+        SolutionFile,
         PBContentPage,
         RepositoryInterface,
         Repository,
@@ -15,6 +16,9 @@
         Generator,
         ShadowProjectFile,
         ShadowProjectDeploymentFile,
-        JsonFile
+        CSharpProjectFile,
+        JsonFile,
+        Plist,
+        Storyboard
     }
 }
