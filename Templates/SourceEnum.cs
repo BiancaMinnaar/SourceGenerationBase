@@ -19,6 +19,10 @@
         CSharpProjectFile,
         JsonFile,
         Plist,
-        Storyboard
+        Storyboard,
+        TextFile,
+        XmlFile,
+        Png,
+        axml
     }
 }

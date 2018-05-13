@@ -48,7 +48,7 @@ namespace CorePCL.Generation.Data
         [ProjectModelPath]
         public string DroidResourcesPath => "../" + ProjectName + "/Droid/Resources/";
         [ProjectModelPath]
-        public string DroidResourcesDrawablePath => "../" + ProjectName + "/Droid/Resources/Drawable/";
+        public string DroidResourcesDrawablePath => "../" + ProjectName + "/Droid/Resources/drawable/";
         [ProjectModelPath]
         public string DroidResourcesDrawableHdpiPath => "../" + ProjectName + "/Droid/Resources/drawable-hdpi/";
         [ProjectModelPath]
