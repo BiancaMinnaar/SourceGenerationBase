@@ -16,6 +16,6 @@
     <Folder Include="Templates\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="BaseBonsai" Version="1.0.8" />
+    <PackageReference Include="BaseBonsai" Version="1.0.9" />
   </ItemGroup>
 </Project>

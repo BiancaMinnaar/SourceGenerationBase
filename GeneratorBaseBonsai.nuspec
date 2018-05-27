@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
@@ -18,13 +18,14 @@
             V1.0.8 - Added InsertEmbededResourceInProjectFile to facilitate AppXaml
             v1.0.9 - Added enums for text and xml files
             V1.1.0 - Fixed case in drawable folder in Droid
+            V1.1.1 - Updated BaseBonsai to V 1.0.9
         </releaseNotes>
     <copyright></copyright>
     <language></language>
     <tags></tags>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="BaseBonsai" version="1.0.8" exclude="Build,Analyzers"  />
+        <dependency id="BaseBonsai" version="1.0.9" exclude="Build,Analyzers"  />
       </group>
     </dependencies>
   </metadata>
