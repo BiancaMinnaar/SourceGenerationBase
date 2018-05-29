@@ -38,6 +38,8 @@ namespace CorePCL.Generation.Data
         public string IOSAssetsAppIconPath => "../" + ProjectName + "/iOS/Assets.xcassets/AppIcon.appiconset/";
         [ProjectModelPath]
         public string IOSResourcesPath => "../" + ProjectName + "/iOS/Resources/";
+        [ProjectModelPath]
+        public string IOSInjectionPath => "../" + ProjectName + "/iOS/Injection/";
         //Droid
         [ProjectModelPath]
         public string DroidProjectPath => "../" + ProjectName + "/Droid/";
@@ -59,6 +61,8 @@ namespace CorePCL.Generation.Data
         public string DroidResourcesLayoutPath => "../" + ProjectName + "/Droid/Resources/layout/";
         [ProjectModelPath]
         public string DroidResourcesValuesPath => "../" + ProjectName + "/Droid/Resources/values/";
+        [ProjectModelPath]
+        public string DroidInjectionPath => "../" + ProjectName + "/Droid/Injection/";
 
         public ProjectModel(string projectName)
         {
