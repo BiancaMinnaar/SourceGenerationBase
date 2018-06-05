@@ -2,12 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>1.1.3</version>
+    <version>1.1.4</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Generate Bonsai</description>
+    <description>Generate Bonsai
+        This package works best with The SourceConsole.
+            https://github.com/BiancaMinnaar/SourceConsole
+            Follow the first four lessons and learn how to use Bonsai
+            https://www.linkedin.com/pulse/bonsai-lesson-1-bianca-minnaar/
+            https://www.linkedin.com/pulse/bonsai-lesson-2-bianca-minnaar/
+            https://www.linkedin.com/pulse/bonsai-lesson-3-bianca-minnaar/
+            https://www.linkedin.com/pulse/bonsai-lesson-4-bianca-minnaar/</description>
     <summary>This package contains the base generation abstraction that powers TemplateBonsai</summary>
     <releaseNotes>
             V1.0.3 - Added support for Directory addition to enable pre config of project structures.
@@ -21,13 +28,14 @@
             V1.1.1 - Updated BaseBonsai to V 1.0.9
             V1.1.2 - Added iOSInjectionPath to ProjectModel
             V1.1.3 - Added DroidInjectionPath to ProjectModel
+            V1.1.4 - Added Desciption
         </releaseNotes>
     <copyright></copyright>
     <language></language>
     <tags></tags>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="BaseBonsai" version="1.0.9" exclude="Build,Analyzers"  />
+        <dependency id="BaseBonsai" version="1.1.0" exclude="Build,Analyzers"  />
       </group>
     </dependencies>
   </metadata>
