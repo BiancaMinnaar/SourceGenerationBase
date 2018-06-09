@@ -1,4 +1,5 @@
-﻿using CorePCL.Generation.Data;
+﻿using System.Collections.Generic;
+using CorePCL.Generation.Data;
 
 namespace CorePCL.Generation.Repository
 {
@@ -14,5 +15,9 @@ namespace CorePCL.Generation.Repository
         bool InsertXamlEmbededResourceInProjectFile(string classPath);
         bool InsertDirecotryReferenceInProjectFile(string classPath);
         bool InsertEmbededResourceInProjectFile(string resourceName);
+
+        void SaveProjectItemData(string fileItem);
+        ProjectModel GetProjectManifest();
+        bool TestFileEntryExist(string fileItem);
     }
 }

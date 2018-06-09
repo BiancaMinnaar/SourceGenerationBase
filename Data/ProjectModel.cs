@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CorePCL.Generation.Data
 {
@@ -63,10 +64,12 @@ namespace CorePCL.Generation.Data
         public string DroidResourcesValuesPath => "../" + ProjectName + "/Droid/Resources/values/";
         [ProjectModelPath]
         public string DroidInjectionPath => "../" + ProjectName + "/Droid/Injection/";
+        public List<string> CurrentProjectManifest;
 
         public ProjectModel(string projectName)
         {
             ProjectName = projectName;
+            CurrentProjectManifest = new List<string>();
         }
     }
 }
