@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>1.1.8</version>
+    <version>1.1.9</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
@@ -32,13 +32,14 @@
             V1.1.6 - Fix Missing Functions to ITemplateInstanceFactory
             v1.1.7 - Add Manifest to ProjectModel
             V1.1.8 - Update BaseBonsai to bring platformServiceBase in
+            V1.1.9 - Update BaseBonsai to include Validation rules on the platform services.
         </releaseNotes>
     <copyright></copyright>
     <language></language>
     <tags></tags>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="BaseBonsai" version="1.2.0" exclude="Build,Analyzers"  />
+        <dependency id="BaseBonsai" version="1.2.1" exclude="Build,Analyzers"  />
       </group>
     </dependencies>
   </metadata>
