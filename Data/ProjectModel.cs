@@ -64,6 +64,9 @@ namespace CorePCL.Generation.Data
         public string DroidResourcesValuesPath => "../" + ProjectName + "/Droid/Resources/values/";
         [ProjectModelPath]
         public string DroidInjectionPath => "../" + ProjectName + "/Droid/Injection/";
+        [ProjectModelPath]
+        public string DroidInjectionRestPath => "../" + ProjectName + "/Droid/Injection/REST/";
+
         public List<string> CurrentProjectManifest;
 
         public ProjectModel(string projectName)
