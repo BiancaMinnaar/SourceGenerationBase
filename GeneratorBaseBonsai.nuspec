@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>1.2.0</version>
+    <version>1.2.3</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
@@ -34,13 +34,16 @@
             V1.1.8 - Update BaseBonsai to bring platformServiceBase in
             V1.1.9 - Update BaseBonsai to include Validation rules on the platform services.
             V1.2.0 - Add Droid REST path for Drid Rest Template.
+            V1.2.1 - Update GeneratorBase and 
+            V1.2.2 - Bring BaseBonsai uptodate to V1.2.2
+            V1.2.3 - Add support for File modification
         </releaseNotes>
     <copyright></copyright>
     <language></language>
     <tags></tags>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="BaseBonsai" version="1.2.1" exclude="Build,Analyzers"  />
+        <dependency id="BaseBonsai" version="1.2.2" exclude="Build,Analyzers"  />
       </group>
     </dependencies>
   </metadata>

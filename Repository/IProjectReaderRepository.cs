@@ -16,6 +16,9 @@ namespace CorePCL.Generation.Repository
         bool InsertDirecotryReferenceInProjectFile(string classPath);
         bool InsertEmbededResourceInProjectFile(string resourceName);
 
+        bool UpdateMasterRepoInterfaceWithMethod(string interfaceMethod);
+        bool UpdateMasterRepoWithMethod(string methodSpecification);
+
         void SaveProjectItemData(string fileItem);
         ProjectModel GetProjectManifest();
         bool TestFileEntryExist(string fileItem);
