@@ -32,7 +32,7 @@ namespace MobileBonsai.Generation.Repository.Implementation
         }
 
         public abstract M SetupModel(string templateName);
-        protected abstract void SetupSteps();
+        public abstract void SetupSteps();
         public abstract void RunSteps();
     }
 }

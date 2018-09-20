@@ -21,6 +21,8 @@ namespace CorePCL.Generation.Data
         [ProjectModelPath]
         public string ServicePath => "../" + ProjectName + "/" + ProjectName + "/Trunk/Service/Implementation/";
         [ProjectModelPath]
+        public string ServiceReturnModelPath => "../" + ProjectName + "/" + ProjectName + "/Trunk/Service/ReturnModel/";
+        [ProjectModelPath]
         public string ViewCodeBehindPath => "../" + ProjectName + "/" + ProjectName + "/Trunk/View/";
         [ProjectModelPath]
         public string ViewControllerInterfacePath => "../" + ProjectName + "/" + ProjectName + "/Trunk/ViewController/";
