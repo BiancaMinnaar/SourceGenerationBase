@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CorePCL.Generation.Data
+namespace BaseBonsai.Generation.Data
 {
     public class ProjectModelPathAttribute : Attribute {}
 

@@ -1,4 +1,4 @@
-﻿namespace CorePCL.Generation.Service
+﻿namespace BaseBonsai.Generation.Service
 {
     public interface IFileService
     {

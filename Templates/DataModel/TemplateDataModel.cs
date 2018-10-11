@@ -1,4 +1,6 @@
-﻿namespace CorePCL.Generation.DataModel
+﻿using BaseBonsai.DataContracts;
+
+namespace BaseBonsai.Generation.DataModel
 {
     public class TemplateDataModel : BaseViewModel
     {

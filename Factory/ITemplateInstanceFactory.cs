@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Templates;
+﻿using System.Collections.Generic;
+using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Templates;
 
 namespace MobileBonsai.Generation.Factory
 {

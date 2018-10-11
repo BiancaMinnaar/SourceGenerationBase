@@ -1,4 +1,4 @@
-﻿namespace CorePCL.Generation.Templates
+﻿namespace BaseBonsai.Generation.Templates
 {
     public enum SourceEnum
     {

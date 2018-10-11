@@ -1,4 +1,4 @@
-﻿namespace CorePCL.Generation.Templates.PartialClasses
+﻿namespace BaseBonsai.Generation.Templates.PartialClasses
 {
     public enum TemplateEnum
     {

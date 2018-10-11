@@ -1,9 +1,9 @@
-﻿using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Factory;
-using CorePCL.Generation.Service;
-using CorePCL.Generation.Templates;
+﻿using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Factory;
+using BaseBonsai.Generation.Service;
+using BaseBonsai.Generation.Templates;
 
-namespace CorePCL.Generation.Repository.Implementation
+namespace BaseBonsai.Generation.Repository.Implementation
 {
     public class GenerationReposetory<M> : IGenerationReposetory<M>
         where M : TemplateDataModel, new()

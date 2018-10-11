@@ -1,9 +1,9 @@
-﻿using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Factory;
-using CorePCL.Generation.Repository;
-using CorePCL.Generation.Repository.Implementation;
-using CorePCL.Generation.Service;
-using CorePCL.Generation.Templates;
+﻿using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Factory;
+using BaseBonsai.Generation.Repository;
+using BaseBonsai.Generation.Repository.Implementation;
+using BaseBonsai.Generation.Service;
+using BaseBonsai.Generation.Templates;
 
 namespace MobileBonsai.Generation.Repository.Implementation
 {

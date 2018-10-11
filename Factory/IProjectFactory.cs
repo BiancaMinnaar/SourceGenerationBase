@@ -1,7 +1,7 @@
-﻿using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Templates;
+﻿using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Templates;
 
-namespace CorePCL.Generation.Factory
+namespace BaseBonsai.Generation.Factory
 {
     public interface IProjectFactory
     {

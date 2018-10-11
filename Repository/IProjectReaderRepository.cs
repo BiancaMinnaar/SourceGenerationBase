@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using CorePCL.Generation.Data;
+using BaseBonsai.Generation.Data;
 
-namespace CorePCL.Generation.Repository
+namespace BaseBonsai.Generation.Repository
 {
     public interface IProjectReaderRepository
     {

@@ -1,9 +1,9 @@
-﻿using CorePCL.Generation.Templates;
-using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Repository.Implementation;
-using CorePCL.Generation.Templates.PartialClasses;
+﻿using BaseBonsai.Generation.Templates;
+using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Repository.Implementation;
+using BaseBonsai.Generation.Templates.PartialClasses;
 
-namespace CorePCL.Generation.Templates
+namespace BaseBonsai.Generation.Templates
 {
     /// <summary>
     /// Template. Depricated Use ITemplate<M>

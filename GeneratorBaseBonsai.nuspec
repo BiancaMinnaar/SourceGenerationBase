@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata minClientVersion="">
     <id>GeneratorBaseBonsai</id>
-    <version>2.0.1</version>
+    <version>2.2.1</version>
     <title></title>
     <authors>Bianca Minnaar</authors>
     <owners>Bianca Minnaar</owners>
@@ -19,13 +19,15 @@
     <releaseNotes>
             V2.0.0 Update Bonsai to V2
             V2.0.1 Upgrade to facilitate returning models
+            V2.1.1 Upgrade BaseBonsai and namespaces
+            V2.2.1 Update BaseBonsai
         </releaseNotes>
     <copyright></copyright>
     <language></language>
     <tags></tags>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="BaseBonsai" version="2.0.3" exclude="Build,Analyzers"  />
+        <dependency id="BaseBonsai" version="2.2.1" exclude="Build,Analyzers"  />
       </group>
     </dependencies>
   </metadata>

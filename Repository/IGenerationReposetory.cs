@@ -1,8 +1,8 @@
 ﻿using System;
-using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Templates;
+using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Templates;
 
-namespace CorePCL.Generation.Repository
+namespace BaseBonsai.Generation.Repository
 {
     public interface IGenerationReposetory<M>
         where M : TemplateDataModel, new()

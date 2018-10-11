@@ -1,4 +1,4 @@
-﻿namespace CorePCL.Generation.DataModel
+﻿namespace BaseBonsai.Generation.DataModel
 {
     public class FileModel
     {

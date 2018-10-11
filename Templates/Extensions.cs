@@ -1,7 +1,7 @@
-﻿using CorePCL.Generation.DataModel;
-using CorePCL.Generation.Repository;
+﻿using BaseBonsai.Generation.DataModel;
+using BaseBonsai.Generation.Repository;
 
-namespace CorePCL.Generation.Templates.Extensions
+namespace BaseBonsai.Generation.Templates.Extensions
 {
     public static class Extentions
     {
